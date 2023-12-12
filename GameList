@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+//another class
+class GameList {
+    private Game[] games;
+    private int numberOfgames;//wrap the arrays and the number of games attributes
+
+    public GameList() {
+        games = new Game[100];
+        numberOfgames = 0;//originate the array
+    }
